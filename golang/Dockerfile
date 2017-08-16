@@ -11,5 +11,6 @@ RUN set -xe \
     && go get github.com/kardianos/govendor \
      golang.org/x/tools/cmd/cover \
      bitbucket.org/liamstask/goose/cmd/goose \
-     github.com/alecthomas/gometalinter
+     github.com/alecthomas/gometalinter \
+    && gometalinter -i
 

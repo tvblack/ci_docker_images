@@ -1,4 +1,4 @@
-FROM golang:1.9.3
+FROM golang:1.11
 
 MAINTAINER tvblack <github@tvblack.com>
 
